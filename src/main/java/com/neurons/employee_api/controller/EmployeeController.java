@@ -29,7 +29,7 @@ public class EmployeeController {
 
     @GetMapping("/{id}")
     public Optional<Employee> getEmployeeById(@PathVariable() Long id){
-        return employeeService.getEmployyeById(id);
+        return employeeService.getEmployeeById(id);
     }
 
     // Create new employee
